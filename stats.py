@@ -9,7 +9,7 @@ def get_book_text(filepath):
             filecontent = file.read()
         return filecontent
     except FileNotFoundError:
-        print(f"Error: The file at {filepath} was not found.")
+        print(f"Error: The file at {filepath} was not found.  ")
         return ""
     except Exception as e:
         print(f"Error reading file: {e}")
