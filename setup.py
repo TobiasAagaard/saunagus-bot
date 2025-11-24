@@ -7,10 +7,11 @@ setup(
     description= "A command-line tool for analyzing book files and generating statistics.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
+    url="https://github.com/TobiasAagaard/bookbot", 
     py_modules=["main", "stats"],
     entry_points={
         "console_scripts": [
-            "bookbot = main:main",
+            "bookbot=main:main",
         ],    
     },
     python_requires=">=3.6",
