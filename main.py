@@ -1,7 +1,7 @@
-from stats import total_num_words , count_unique_characters, sort_characters_dictonary
-from file_reader import get_book_text
-import sys
 
+from .stats import total_num_words, count_unique_characters, sort_characters_dictonary
+from .file_reader import get_book_text
+import sys
 
 
 def main():
