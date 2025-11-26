@@ -56,7 +56,6 @@ python3 main.py <path_to_book>
 
 ### Examples:
 ```bash
-bookbot books/frankenstein.txt
 bookbot ~/Documents/mybook.txt
 python3 main.py books/mobydick.txt
 ```
